@@ -16,11 +16,14 @@
     width: 900px;
     overflow-wrap: break-word;
     font-size: 20px;
-    
+    text-align: center;
   }
   button{
-    margin-left: 10px;
+    margin-left: 700px;
+    height:40px;
+    width: 90px;
   }
   .col{
-   border: 2px groove;
+
+   margin-left: 200px;
   }

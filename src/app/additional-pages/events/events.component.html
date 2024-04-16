@@ -14,7 +14,7 @@
             </div>
             <div *ngIf="user && user.id==event.userId" class="col">
                 <button (click)="deleteEvent(event)" type="button"
-                    class="btn btn-danger">{{'Deletebutton'|translate}}</button>
+                class="btn btn-outline-danger">{{'Deletebutton'|translate}}</button>
                 <button (click)="updateEvent(event)" type="button"
                     class="btn btn-outline-primary">{{'Updatebutton'|translate}}</button>
             </div>
@@ -22,4 +22,4 @@
 
 
     </div>
-</div>   
+</div>
