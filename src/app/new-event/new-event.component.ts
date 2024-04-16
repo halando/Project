@@ -41,4 +41,7 @@ export class NewEventComponent {
 
     }
 }
+handleFileInput(event:any){
+  const file = event.target.files[0];
+}
 }

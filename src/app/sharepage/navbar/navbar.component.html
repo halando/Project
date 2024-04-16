@@ -28,10 +28,10 @@
             <a class="nav-link"routerLink="/user-list" routerLinkActive="active-link">{{'users'|translate}}</a>
           </li>
           <li  class="nav-item">
-            <a class="nav-link" routerLink="/events">{{'Események' |translate}}</a>
+            <a class="nav-link" routerLink="/events">{{'event2' |translate}}</a>
           </li>
           <li *ngIf="currentUser" class="nav-item">
-            <a class="nav-link" routerLink="/newevent">{{'Új Események' |translate}}</a>
+            <a class="nav-link" routerLink="/newevent">{{'newevents' |translate}}</a>
           </li>
           <li *ngIf="currentUser" class="nav-item">
             <a class="nav-link" (click)="logout()">{{'logout' |translate}}</a>
