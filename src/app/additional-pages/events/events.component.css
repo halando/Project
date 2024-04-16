@@ -15,6 +15,8 @@
     /* height: 500px; */
     width: 900px;
     overflow-wrap: break-word;
+    font-size: 20px;
+    
   }
   button{
     margin-left: 10px;
