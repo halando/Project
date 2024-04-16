@@ -16,7 +16,7 @@
     
 }
 .card{
-    border: 5px solid black;
+    border: 5px groove black;
 }
 button{
     text-align: center;

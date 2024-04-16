@@ -11,7 +11,7 @@ import { AuthService } from 'src/app/auth.service';
 export class EventsComponent {
   panelOpenState = false;
   events:any
-  oszlopok=["name", "description","link","image"]
+  oszlopok=["name", "description","link"]
   user:any;
 
   constructor(private authService:AuthService, private router: Router){

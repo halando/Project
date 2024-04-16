@@ -8,10 +8,8 @@
         <input [(ngModel)]="newEvent[o]" type="text" class="form-control" [id]="o">
         <label [for]="o">{{o}}</label>
       </div>
-      <div class="input-group mb-3">
-        <input type="file" class="form-control" id="inputGroupFile02" (change)="handleFileInput($event)">
-        
-      </div>
+      
+     
       <button (click)="addEvent()" type="button" class="btn btn-primary">{{'Addbutton'|translate}}</button>
     </div>
   </div>
